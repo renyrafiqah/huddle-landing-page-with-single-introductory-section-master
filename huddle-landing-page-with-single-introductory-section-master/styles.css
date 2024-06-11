@@ -1,0 +1,59 @@
+@font-face {
+    font-family: poppins;
+    src: url(../huddle-landing-page-with-single-introductory-section-master/font/Poppins/Poppins-Light.ttf)
+}
+
+@font-face {
+    font-family: open-sans;
+    src: url(../huddle-landing-page-with-single-introductory-section-master/font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.body{
+    margin: 50px 100px 50px 100px;
+}
+
+.huddle{
+    color: hsl(0, 0%,100%);
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.container{
+    display: flex;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-family: "poppins";
+    font-weight: 600;
+}
+
+p{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-family: "poppins";
+    font-size: 12px;
+}
+
+.register{
+    font-size: 14px;
+    color: hsl(257, 40%, 49%);
+    font-family: "poppins";
+    font-weight: 600px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 18px;
+    text-align: center;
+    padding: 5px;
+    width:140px;
+}
+
+.register:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: hsl(0, 0%, 100%)
+}
