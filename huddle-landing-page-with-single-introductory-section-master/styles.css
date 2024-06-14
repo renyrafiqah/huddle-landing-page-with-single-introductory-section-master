@@ -15,17 +15,24 @@ body{
     background-size: contain;
 }
 .body{
-    margin: 50px 100px 50px 100px;
+    margin: 50px 110px 50px 110px;
 }
 
 .huddle{
     color: hsl(0, 0%,100%);
-    font-size: 40px;
+    font-size: 30px;
+    font-family: "open-sans";
     padding-bottom: 50px;
+    font-weight: 700;
 }
 
 .container{
     display: flex;
+}
+
+img{
+    height: 350px;
+    margin-right: 60px;
 }
 
 h1{
@@ -38,22 +45,43 @@ p{
     color: hsl(0, 0%, 100%);
     font-weight: 400;
     font-family: "poppins";
-    font-size: 12px;
+    font-size: 14px;
 }
 
-.register{
+input{
+    border-radius:18px;
     font-size: 14px;
-    color: hsl(257, 40%, 49%);
+    color:hsl(257, 40%, 49%);
     font-family: "poppins";
     font-weight: 600px;
     background-color: hsl(0, 0%, 100%);
-    border-radius: 18px;
     text-align: center;
     padding: 5px;
-    width:140px;
+    width: 150px;
+    border: none;
 }
 
-.register:hover{
+input:hover{
     background-color: hsl(300, 69%, 71%);
     color: hsl(0, 0%, 100%)
 }
+
+.sosmed{
+    float: right;
+}
+
+i{
+    border-radius: 50%;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+    padding: 10px;
+    margin:2px;
+}
+
+i:hover{
+    border-color: hsl(300, 89%, 55%);
+    color: hsl(300, 89%, 55%)
+}
+
